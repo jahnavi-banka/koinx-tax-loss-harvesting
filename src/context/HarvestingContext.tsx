@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, useMemo, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useMemo, ReactNode } from 'react';
 import { fetchHoldings, fetchCapitalGains, Holding, CapitalGains } from '../data/api';
 
 interface HarvestingContextType {

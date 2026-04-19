@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useHarvesting } from '../context/HarvestingContext';
 import { AssetIcon } from './AssetIcon';
 import clsx from 'clsx';

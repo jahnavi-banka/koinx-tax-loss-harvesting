@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useHarvesting } from '../context/HarvestingContext';
 import { ArrowRight, TrendingDown } from 'lucide-react';
 import clsx from 'clsx';
