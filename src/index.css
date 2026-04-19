@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0F1629;
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A3446;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #738096;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  accent-color: #0052FE;
+  cursor: pointer;
+}
